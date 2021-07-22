@@ -41,3 +41,7 @@ ctypes.CDLL(PLUGIN_LIBRARY)
 # tensorrt模型文件：python mmdet_to_trt.py生成。
 engine_path = '.../cascade_rcnn/epoch_37_pth.engine'
 ```
+- step 2: 推理
+```bash 
+python inference_trt.py
+```
